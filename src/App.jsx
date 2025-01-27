@@ -1,14 +1,17 @@
-import './App.css'
+import Navbar from './components/Navbar';
+import Hero from './components/Hero';
+import Features from './components/Features';
+import Pricing from './components/Pricing';
 
 function App() {
-
   return (
-    <>
-     <div className='App bg-red-100'>
-      <h1>helllo world</h1>
-     </div>
-    </>
-  )
+    <div className="min-h-screen bg-white">
+      <Navbar />
+      <Hero />
+      <Features />
+      <Pricing />
+    </div>
+  );
 }
 
-export default App
+export default App;
